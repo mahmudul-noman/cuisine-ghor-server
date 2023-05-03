@@ -17,7 +17,16 @@ app.get('/', (req, res) => {
 app.get('/chef', (req, res) => {
     // console.log(chef);
     res.send(chef);
-})
+});
+
+
+
+app.get('/chef/:id', (req, res) => {
+    const id = parseInt(req.params.id);
+    const selectedChef = chef.find(n => parseInt(n.id) === id);
+    // console.log(selectedChef);
+    res.send(selectedChef);
+});
 
 
 app.listen(port, () => {
