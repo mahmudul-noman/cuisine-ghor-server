@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "service_Image": "https://example.com/chef-recipe-restaurant-1.jpg",
+        "service_title": "Birthdays",
+        "service_description": "Book a table for two with the best Italian dishes served for the anniversary. Or reserve a bigger one for a huge family to get together one sunny day. Gather your friends together."
+    },
+    {
+        "id": 2,
+        "service_Image": "https://example.com/chef-recipe-restaurant-2.jpg",
+        "service_title": "Meetings",
+        "service_description": "You can also impress your boss by choosing the best place for corporate party with your co-workers. Reserve a spacious room, set the menu, choose the drinks and invite guests."
+    },
+    {
+        "id": 3,
+        "service_Image": "https://example.com/chef-recipe-restaurant-3.jpg",
+        "service_title": "Weddings",
+        "service_description": "75 seats for 75 guests are all at your disposal. Organize a party for a huge company and have fun in the restaurant. Show your friends the real world of European cuisine and especially Italian vibes."
+    }
+]
